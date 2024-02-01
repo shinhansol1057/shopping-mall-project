@@ -1,0 +1,71 @@
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.user-icon {
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+.logo-area {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-list li {
+  padding: 10px;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.search-area {
+  position: absolute;
+  right: 30px;
+  top: 30%;
+  border-bottom: 1px solid black;
+  
+}
+
+.search-input {
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+@media (max-width: 700px) {
+  .search-input {
+    width: 100px;
+  }
+}
+
+.login-container {
+  max-width: 600px;
+  margin-top: 100px;
+}
+
+.product-detail-container {
+  max-width: 800px;
+}
+
+.add-button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.product-detail-price {
+  margin: 20px 0 20px 0;
+}
